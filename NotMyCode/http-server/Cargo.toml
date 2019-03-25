@@ -1,0 +1,12 @@
+[package]
+name = "http-server"
+version = "0.1.0"
+authors = ["Amar Singh <asinghchrony@protonmail.com>"]
+edition = "2018"
+
+[dependencies]
+bytes = "0.4.11"
+http = "0.1.13"
+
+[dependencies.futures-preview]
+version = "0.3.0-alpha.10"
