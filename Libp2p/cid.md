@@ -1,6 +1,6 @@
 # Self-Describing Content-Addressed Identifiers
 
-Small identifiers would prefer a compact version of multicodec. This compact identifier should be standardized and stored in in a look up table as a single variant.
+Small identifiers would prefer a compact version of multicodec. This compact identifier should be standardized and stored in a look up table as a single variant.
 
 Because IPLD fosters multiple different formats, it is necessary to formalize a process that facilitates identification of content type while traversing an IPLD link.
 
@@ -10,7 +10,7 @@ The final solution proposed by [CIDv1](https://github.com/ipfs/specs/issues/130)
 
 ## (2) Add Multibase Prefix to Representations of IPLD Links
 
-## (2) IPLD Links learn about Codecs
+## (1) IPLD Links learn about Codecs
 
 * introduce a multicodec-packed variant prefix to the link `=>` signals encoding of the linked-to object
 * link to the object carries information regarding its interpretation
