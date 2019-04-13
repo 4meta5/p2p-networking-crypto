@@ -48,3 +48,7 @@ The **Discovery Protocol** enables us to build a partial view of the network tha
 
 * [Habitat (Butterfly Protocol)](https://www.habitat.sh/docs/internals/#bootstrap-internals)
     * [Newscast Gossip](http://www.cs.unibo.it/bison/publications/ap2pc03.pdf)
+
+* [Big Brother Specs]()
+    * attempt by Dean Eigenmann to bootstrap nodes in a decentralized manner by using the blockchain to coordinate peer discovery
+    * [tomaka (pierre) tweet](): ~"*the base layer is still very centralized*"
