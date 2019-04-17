@@ -1,14 +1,18 @@
 # Networking Research
 
 * [Peer Discovery](./PeerDiscovery)
-    * [Gossip](./PeerDiscovery/Gossip)
-* [Incentive Models](./Economics)
 * [High Performance Browser Networking](./HPBF)
+    * [Latency and Bandwidth](./HPBF/latency_bandwidth.md)
+    * [TCP Building Blocks](./HPBF/tcp.md)
 * [Libp2p](./Libp2p)
     * [CID](./Libp2p/cid.md)
-    * [RPC](./rpc.md)
-* [QUIC](./QUIC)
-    * [UDP Basics](./QUIC/udp.md)
+* [Gossip](./Gossip.md)
+* [Incentive Models](./incentives.md)
+* [RPC](./rpc.md)
+* [QUIC](./QUIC.md)
+* [Transport Fundamentals](./Transport)
+    * [UDP Basics](.udp.md)
+    * [Token Bucket Algorithm](./tokenbucket)
 
 ## Q
 
