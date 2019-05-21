@@ -6,7 +6,7 @@
     * [TCP Building Blocks](./HPBF/tcp.md)
 * [Libp2p](./Libp2p)
     * [CID](./Libp2p/cid.md)
-* [Gossip](./Gossip.md)
+* [Gossip](./PeerDiscovery/gossip.md)
 * [Incentive Models](./incentives.md)
 * [RPC](./rpc.md)
 * [QUIC](./QUIC.md)
