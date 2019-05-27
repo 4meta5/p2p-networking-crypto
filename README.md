@@ -11,8 +11,8 @@
 * [RPC](./rpc.md)
 * [QUIC](./QUIC.md)
 * [Transport Fundamentals](./Transport)
-    * [UDP Basics](.udp.md)
-    * [Token Bucket Algorithm](./tokenbucket)
+    * [UDP Basics](./Transport/udp.md)
+    * [Token Bucket Algorithm](./Transport/tokenbucket)
 
 ## Q
 
