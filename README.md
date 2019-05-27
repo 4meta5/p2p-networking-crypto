@@ -1,9 +1,9 @@
 # Networking Research
 
 * [Peer Discovery](./PeerDiscovery)
-* [High Performance Browser Networking](./HPBF)
-    * [Latency and Bandwidth](./HPBF/latency_bandwidth.md)
-    * [TCP Building Blocks](./HPBF/tcp.md)
+* [High Performance Browser Networking](./Basics)
+    * [Latency and Bandwidth](./Basics/latency_bandwidth.md)
+    * [TCP Building Blocks](./Basics/tcp.md)
 * [Libp2p](./Libp2p)
     * [CID](./Libp2p/cid.md)
 * [Gossip](./PeerDiscovery/gossip.md)
