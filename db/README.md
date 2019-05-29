@@ -4,6 +4,8 @@
 * [Cache Systems](./cache.md)
 * [PACELC Theorem](./PACELC.md)
 
+*[Rust Reference Code](./code.md)*
+
 ## Curriculum
 
 1. **[sled architectural outlook](https://github.com/spacejam/sled/wiki/sled-architectural-outlook)**
