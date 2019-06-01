@@ -4,7 +4,7 @@
 * [Documentation for libp2p transport and protocol upgrade system](https://github.com/tomaka/libp2p-rs/blob/7aacb081d2e7db05b17c932370c926bb5e0d6230/libp2p-swarm/README.md)
 
 *ToDo*
-* [Experiment with `Cap'N Proto` for Libp2p](./rpc.md)
+* [Experiment with `Cap'N Proto` for Libp2p](../basics/rpc.md)
 * Play with Proxy Re-Encryption -- [Parity PRE Implementation](https://github.com/paritytech/xpremtinel)
 
 ## Why Libp2p
