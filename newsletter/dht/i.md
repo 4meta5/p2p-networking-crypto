@@ -24,7 +24,7 @@ The *node ID* is used to locate values in the distributed key-value store. Speci
 * *symmetricity*: the distances calculated from A to B and B to A are the same
 * *[triangle inequality](https://en.wikipedia.org/wiki/Triangle_inequality)*
 
-[Routing tables](https://en.wikipedia.org/wiki/Kademlia#Routing_tables) are constructed to facilitate the Kademlia search algorith. Each search iteration achieves progress such that a basic Kademlia network with `2^{n}` nodes only takes `n` steps (in the worst case) to find the target node. Likewise, information lookups require contacting only `O(log(n))` nodes out of the total `n` nodes that comprise the network. This makes search across the network very efficient `=>` **(3) scalable**.
+[Routing tables](https://en.wikipedia.org/wiki/Kademlia#Routing_tables) are constructed to facilitate the Kademlia search algorithm. Each search iteration achieves progress such that a basic Kademlia network with `2^{n}` nodes only takes `n` steps (in the worst case) to find the target node. Likewise, information lookups require contacting only `O(log(n))` nodes out of the total `n` nodes that comprise the network. This makes search across the network very efficient `=>` **(3) scalable**.
 
 *Read more about Kademlia's algorithm for [locating nodes](https://en.wikipedia.org/wiki/Kademlia#Locating_nodes) and [resources](https://en.wikipedia.org/wiki/Kademlia#Locating_resources)*
 
@@ -41,13 +41,3 @@ With this in mind, an attacker can use one machine to create many node IDs, surr
 The basic problem arises as the result of the Kademlia peer discovery algorithm. An attacker can very easily craft a set of node IDs distinctly designed to fill all the buckets in a victim's peer mapping (by appearing to be *close*, according to the XOR distance metric). The deterministic and transparent nature of the distance metric makes it easy to isolate the victim from the rest of the network, manipulate in/outbounding connections, and control the victim's local view. While the paper linked below isolates a few workarounds to patch this attack vector, a better solution will likely involve decentralized peer discovery -- this is where privacy-preserving DHTs become relevant.
 
 *Read more about eclipse attacks in [Low-Resource Eclipse Attacks on Ethereum's Peer-to-Peer Network](https://eprint.iacr.org/2018/236.pdf)*
-
-## Privacy Preserving DHTs <a name = "privacy"></a>
-
-*Part II will introduce Privacy Preserving DHTs; it is inspired by and pulls heavily from a [talk on privacy-preserving DHTs at DTN](https://github.com/hashmatter/outreach/tree/master/talks/DTN-17-2019-privacy-preserving-dhts) by [`gpestana`](https://github.com/gpestana)*        
-
-## More Reading
-
-* [A Brief Overview of Kademlia, and its use in various decentralized platforms](https://medium.com/coinmonks/a-brief-overview-of-kademlia-and-its-use-in-various-decentralized-platforms-da08a7f72b8f)
-* [Eclipse Attacks on Blockchains’ Peer-to-Peer Network](https://hackernoon.com/eclipse-attacks-on-blockchains-peer-to-peer-network-26a62f85f11)
-* [Avoiding Eclipse attacks on Kad/Kademlia: an identity based approach](https://hackernoon.com/eclipse-attacks-on-blockchains-peer-to-peer-network-26a62f85f11)
