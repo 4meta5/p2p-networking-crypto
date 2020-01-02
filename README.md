@@ -9,6 +9,9 @@
 
 *Deeper Focus*
 * [Libp2p](./rust-libp2p)
+* [Sponge Constructions](./sponge)
+* [End to End Encryption](./e2e)
+* [Metadata Resistance](./metadata-resistance)
 * [Peer Discovery](./peer-discovery)
 * [Incentive Models](./incentives.md)
 * [QUIC](./QUIC.md)
